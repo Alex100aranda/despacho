@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Despacho de abogados Lex & Juris. Expertos en derecho penal, civil y laboral. Agenda tu consulta gratuita." />
+  <title>Hernández & Asociados - Despacho Jurídico</title>
+
+  <!-- Fuentes y Estilos -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Merriweather&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="navbar-container">
+    <a href="#" class="logo">Hernández & Asociados</a>
+
+    <!-- Botón hamburguesa -->
+    <button class="menu-toggle" aria-label="Abrir menú">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre Nosotros</a></li>
+      <li><a href="#areas">Áreas</a></li>
+      <li><a href="#testimonios">Testimonios</a></li>
+      <li><a href="#logros">Logros</a></li>
+      <li><a href="#contacto" class="cta-nav">Consulta Gratis</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="hero-content" data-aos="fade-up">
+      <h1 data-aos="fade-down">Hernández & Asociados</h1>
+      <p data-aos="fade-up">Abogados expertos en derecho penal, civil y laboral</p>
+      <a href="#contacto" class="btn" data-aos="fade-up">Agenda tu consulta gratuita</a>
+    </div>
+  </header>
+
+ <!-- Sobre Nosotros -->
+<section id="sobre" class="sobre-nosotros" data-aos="fade-up">
+  <h2 data-aos="fade-down">Sobre Nosotros</h2>
+  <p class="intro" data-aos="fade-up" data-aos-delay="100">
+    En <strong>Lex & Juris</strong> llevamos más de 15 años ofreciendo asesoría y representación legal en diversas ramas del derecho, con un enfoque humano, ético y estratégico.
+  </p>
+  <p data-aos="fade-up" data-aos-delay="200">
+    Nuestro compromiso es defender los intereses de nuestros clientes con honestidad, transparencia y resultados. Contamos con un equipo multidisciplinario de abogados especializados que trabajan con pasión y profesionalismo.
+  </p>
+</section>
+
+
+  <!-- Áreas -->
+  <section id="areas" class="areas">
+    <h2 data-aos="fade-right">Áreas de Práctica</h2>
+    <div class="cards">
+      <div class="card" data-aos="flip-left">
+        <i class="fas fa-gavel icono"></i>
+        <h3>Derecho Penal</h3>
+        <p>Defensa penal en todas las instancias.</p>
+      </div>
+      <div class="card" data-aos="flip-left" data-aos-delay="200">
+        <i class="fas fa-balance-scale icono"></i>
+        <h3>Derecho Civil</h3>
+        <p>Contratos, propiedad, herencias y más.</p>
+      </div>
+      <div class="card" data-aos="flip-left" data-aos-delay="400">
+        <i class="fas fa-briefcase icono"></i>
+        <h3>Derecho Laboral</h3>
+        <p>Despidos injustificados, indemnizaciones.</p>
+      </div>
+    </div>
+  </section>
+
+ <!-- Testimonios -->
+<section id="testimonios" class="testimonios" data-aos="fade-up">
+  <h2 data-aos="zoom-in-up">Testimonios</h2>
+
+  <div class="testimonios-grid">
+    <div class="testimonio" data-aos="zoom-in-up" data-aos-delay="100">
+      <p class="texto">"El equipo de Lex & Juris me brindó una asesoría increíble en mi caso de derecho civil. Totalmente recomendados."</p>
+      <p class="autor"><strong>Juan Pérez</strong></p>
+    </div>
+
+    <div class="testimonio" data-aos="zoom-in-up" data-aos-delay="200">
+      <p class="texto">"Gracias a su defensa laboral, recuperé mis derechos y obtuve la indemnización que merecía. Son grandes profesionales."</p>
+      <p class="autor"><strong>María Gómez</strong></p>
+    </div>
+
+    <div class="testimonio" data-aos="zoom-in-up" data-aos-delay="300">
+      <p class="texto">"Me orientaron de forma clara y honesta desde la primera consulta. Hoy tengo la tranquilidad legal que necesitaba."</p>
+      <p class="autor"><strong>Carlos Ramírez</strong></p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Logros -->
+<section id="logros" class="logros" data-aos="fade-up">
+  <h2>Casos de Éxito</h2>
+  <ul class="logros-lista">
+    <li><i class="fas fa-check-circle logros-icono"></i> Más de 500 clientes satisfechos</li>
+    <li><i class="fas fa-gavel logros-icono"></i> 15 años de experiencia en litigio</li>
+    <li><i class="fas fa-trophy logros-icono"></i> 98% de éxito en procesos civiles</li>
+    <li><i class="fas fa-comments logros-icono"></i> Asesoría gratuita en la primera consulta</li>
+  </ul>
+</section>
+
+<!-- Contacto -->
+<section id="contacto" class="contacto" data-aos="fade-up">
+  <h2 data-aos="fade-down">Contáctanos</h2>
+  <p class="contacto-intro">¿Tienes dudas legales? Escríbenos y te responderemos lo antes posible.</p>
+
+  <form action="https://formspree.io/f/yourID" method="POST" data-aos="fade-up" data-aos-delay="200">
+    <input type="text" name="nombre" placeholder="Nombre completo" required>
+    <input type="email" name="email" placeholder="Correo electrónico" required>
+    <textarea name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+
+<!-- Ubicación -->
+<section id="ubicacion" class="ubicacion" data-aos="fade-up">
+  <h2>Visítanos</h2>
+  <p class="intro">Nuestra oficina está ubicada en una zona estratégica, ¡te esperamos!</p>
+
+  <div class="ubicacion-card">
+    <div class="mapa-compacto">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.5693723080037!2d-99.13320868509849!3d19.4326077868834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff2b007d6931%3A0x2f1817f1baf839a5!2sPalacio%20de%20Bellas%20Artes!5e0!3m2!1ses!2smx!4v1713784105481!5m2!1ses!2smx"
+        width="100%" height="250" loading="lazy" allowfullscreen=""
+        referrerpolicy="no-referrer-when-downgrade" title="Mapa de ubicación Lex & Juris">
+      </iframe>
+    </div>
+
+    <div class="datos-direccion">
+      <p><strong>Dirección:</strong> Av. Juárez 1, Centro Histórico, CDMX</p>
+      <p><strong>Horario:</strong> Lunes a Viernes, 9:00 am - 6:00 pm</p>
+      <a href="#contacto" class="btn-secundario">Agendar cita</a>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Hernández & Asociados. Todos los derechos reservados.</p>
+    <div class="social-media">
+      <a href="https://www.facebook.com" target="_blank" class="social-icon facebook" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.instagram.com" target="_blank" class="social-icon instagram" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com" target="_blank" class="social-icon linkedin" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://wa.me/5215512345678" target="_blank" class="social-icon whatsapp" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Flotante -->
+  <a href="https://wa.me/5215512345678" class="whatsapp-float" target="_blank" aria-label="Chatea con nosotros por WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+    });
+
+
+    // Navbar activa al hacer scroll
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll(".nav-links a");
+
+    window.addEventListener("scroll", () => {
+      let current = "";
+      sections.forEach((section) => {
+        const sectionTop = section.offsetTop - 120;
+        if (pageYOffset >= sectionTop) {
+          current = section.getAttribute("id");
+        }
+      });
+
+      navLinks.forEach((a) => {
+        a.classList.remove("active");
+        if (a.getAttribute("href") === `#${current}`) {
+          a.classList.add("active");
+        }
+      });
+    });
+  </script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    const icon = menuToggle.querySelector('i');
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('menu-activo');
+      menuToggle.classList.toggle('menu-abierto');
+
+      // Cambia entre fa-bars y fa-x
+      if (icon.classList.contains('fa-bars')) {
+        icon.classList.remove('fa-bars');
+        icon.classList.add('fa-x');
+      } else {
+        icon.classList.remove('fa-x');
+        icon.classList.add('fa-bars');
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
